@@ -1,0 +1,82 @@
+/* Basic Text Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333; /* Text color */
+    background-color: #f0f0f0; /* Light grey background */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/* Headings */
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Layout Containers */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #2980b9;
+}
+/* Forms */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+/* Flexbox Layout Example */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-item {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+}
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
